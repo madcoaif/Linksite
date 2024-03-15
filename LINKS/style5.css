@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+  }
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(17, 17, 17);
+    background-image: linear-gradient(to bottom,rgb(190, 96, 186),rgb(184, 8, 8));
+}
+
+.div{
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    justify-content: center;
+}
+.div1{
+    font-family: 'Open Sans', sans-serif;
+    width: 600px;
+    height: 600px 600px;
+    background-color: rgb(184, 245, 194);
+    border: 1px solid rgb(11, 112, 37);
+    border-radius: 50px;
+    padding: 25px;
+    margin: 10px;
+    display:inline-block;
+    list-style-type: none;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    color: rgb(7, 7, 7);
+}
+
+.imagem{
+    height: 250px;
+    width: 250px;
+    display:inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 200px;
+    cursor: pointer;
+}
+
+@media (max-width: 600px){}
